@@ -13,6 +13,8 @@ redirect_from:
 product: '{% data reusables.gated-features.pages %}'
 versions:
   free-pro-team: '*'
+topics:
+  - pages
 ---
 
 People with admin permissions for a repository can configure a custom domain for a {% data variables.product.prodname_pages %} site.
@@ -35,7 +37,7 @@ The `dig` command, which can be used to verify correct configuration of DNS reco
 
 ### Configuring a subdomain
 
-To set up a `www` or custom subdomain, such as `www.example.com` or `blog.example.com`, you must create a _CNAME_ file in your site's repository and configure a `CNAME` record with your DNS provider.
+To set up a `www` or custom subdomain, such as `www.example.com` or `blog.example.com`, you must add your domain in the repository settings, which will create a CNAME file in your site’s repository. After that, configure a CNAME record with your DNS provider.
 
 {% data reusables.pages.navigate-site-repo %}
 {% data reusables.repositories.sidebar-settings %}
@@ -58,9 +60,9 @@ To set up a `www` or custom subdomain, such as `www.example.com` or `blog.exampl
 
 ### Configuring an apex domain
 
-To set up an apex domain, such as `example.com`, you must configure a _CNAME_ file  in your {% data variables.product.prodname_pages %} repository and an `ALIAS`, `ANAME`, or `A` record with your DNS provider.
+To set up an apex domain, such as `example.com`, you must configure a _CNAME_ file  in your {% data variables.product.prodname_pages %} repository and at least one `ALIAS`, `ANAME`, or `A` record with your DNS provider.
 
-{% data reusables.pages.www-and-apex-domain-recommendation %}
+{% data reusables.pages.www-and-apex-domain-recommendation %} For more information, see "[Configuring a subdomain](#configuring-a-subdomain)."
 
 {% data reusables.pages.navigate-site-repo %}
 {% data reusables.repositories.sidebar-settings %}
@@ -68,7 +70,7 @@ To set up an apex domain, such as `example.com`, you must configure a _CNAME_ fi
   ![Save custom domain button](/assets/images/help/pages/save-custom-apex-domain.png)
 5. Navigate to your DNS provider and create either an `ALIAS`, `ANAME`, or `A` record. {% data reusables.pages.contact-dns-provider %}
     - To create an `ALIAS` or `ANAME` record, point your apex domain to the default domain for your site. {% data reusables.pages.default-domain-information %}
-    - To create an `A` record, point your apex domain to the IP addresses for {% data variables.product.prodname_pages %}.
+    - To create `A` records, point your apex domain to the IP addresses for {% data variables.product.prodname_pages %}. 
       ```shell
       185.199.108.153
       185.199.109.153
