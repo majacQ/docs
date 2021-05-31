@@ -9,6 +9,9 @@ redirect_from:
   - /articles/github-privacy-statement/
 versions:
   free-pro-team: '*'
+topics:
+  - policy
+  - legal
 ---
 
 Effective date: December 19, 2020
@@ -94,7 +97,7 @@ We do not intentionally collect User Personal Information that is **stored in yo
 
 ### How GitHub uses your information
 
-- We may use your information for the following purposes:
+We may use your information for the following purposes:
 - We use your [Registration Information](#registration-information) to create your account, and to provide you the Service.
 - We use your [Payment Information](#payment-information) to provide you with the Paid Account service, the Marketplace service, the Sponsors Program, or any other GitHub paid service you request.
 - We use your User Personal Information, specifically your username, to identify you on GitHub.
@@ -318,7 +321,7 @@ In the unlikely event that a dispute arises between you and GitHub regarding our
 
 ### Changes to our Privacy Statement
 
-Although most changes are likely to be minor, GitHub may change our Privacy Statement from time to time. We will provide notification to Users of material changes to this Privacy Statement through our Website at least 30 days prior to the change taking effect by posting a notice on our home page or sending email to the primary email address specified in your GitHub account. We will also update our [Site Policy repository](https://github.com/github/site-policy/), which tracks all changes to this policy. For other changes to this Privacy Statement, we encourage Users to [watch](/github/managing-subscriptions-and-notifications-on-github/viewing-your-subscriptions#configuring-your-watch-settings-for-an-individual-repository) or to check our Site Policy repository frequently. 
+Although most changes are likely to be minor, GitHub may change our Privacy Statement from time to time. We will provide notification to Users of material changes to this Privacy Statement through our Website at least 30 days prior to the change taking effect by posting a notice on our home page or sending email to the primary email address specified in your GitHub account. We will also update our [Site Policy repository](https://github.com/github/site-policy/), which tracks all changes to this policy. For other changes to this Privacy Statement, we encourage Users to [watch](/github/managing-subscriptions-and-notifications-on-github/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository) or to check our Site Policy repository frequently. 
 
 ### License
 
