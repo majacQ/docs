@@ -154,7 +154,7 @@
     "pa11y-ci": "^2.4.0",
     "prettier": "^2.2.1",
     "puppeteer": "^5.5.0",
-    "replace": "^1.2.1",
+    "replace": "^1.2.2",
     "robots-parser": "^2.3.0",
     "start-server-and-test": "^1.12.1",
     "strip-ansi": "^6.0.0",
